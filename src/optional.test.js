@@ -43,7 +43,7 @@ test('optional getOrThrow throws the correct error', () => {
 })
 
 test('optional andThen executes correctly', () => {
-    let variable = 1;
+    let variable = 1
     Optional.of(null).andThen(value => variable += value)
 
     expect(variable).toBe(1)

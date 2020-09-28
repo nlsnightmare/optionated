@@ -5,10 +5,10 @@ export class Result<T, S> {
         private error: T,
         private value: S,
         private ok: boolean
-    ) { }
+    ) {}
 
-    static ok<T, S>(value: S): Result<T, S> { return new Result<T, S>(null, value, true) }
-    static error<T, S>(error: T): Result<T, S> { return new Result<T, S>(error, null, false) }
+    static ok<T, S>(value: S): Result<T, S> { return new Result<T, S>(null!, value, true) }
+    static error<T, S>(error: T): Result<T, S> { return new Result<T, S>(error, null!, false) }
 
     isOk(): boolean { return this.ok }
     isError(): boolean { return ! this.isOk() }
