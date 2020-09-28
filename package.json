@@ -1,0 +1,26 @@
+{
+  "name": "optionated",
+  "version": "1.0.0",
+  "description": "An opinionated Option and Result type for js and ts",
+  "main": "index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "tsc; jest",
+    "prepublish": "tsc"
+  },
+  "keywords": [
+    "option",
+    "optional",
+    "maybe",
+    "result"
+  ],
+  "author": "Nick Maroulakis",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^26.4.2"
+  },
+  "dependencies": {
+    "@types/jest": "^26.0.14",
+    "typescript": "^4.0.3"
+  }
+}

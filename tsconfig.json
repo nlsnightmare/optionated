@@ -1,0 +1,29 @@
+{
+    "compilerOptions": {
+        "lib": [
+            "ES2020"
+        ],
+        "target": "ES2017",
+        "module": "commonjs",
+        "esModuleInterop": true,
+        "declaration": true,
+        "incremental": true,
+        "moduleResolution": "node",
+        "strictNullChecks": true,
+        "strictBindCallApply": true,
+        "noImplicitThis": true,
+        "noUnusedLocals": true,
+        "strict": true,
+        "noImplicitAny": true,
+        "outDir": "./dist",
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "sourceMap": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true
+    },
+    "exclude": [
+        "node_modules",
+        "dist"
+    ]
+}
