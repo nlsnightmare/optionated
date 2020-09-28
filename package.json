@@ -1,6 +1,6 @@
 {
     "name": "optionated",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "An opinionated Option and Result type for js and ts",
     "main": "index.js",
     "types": "dist/index.d.ts",
